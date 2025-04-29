@@ -2,7 +2,7 @@ class Solution {
     public int findPeakElement(int[] nums) {
         int low = 0;
         int high = nums.length-1;
-
+//test
         while(low<high){
             int mid = low+(high-low)/2;
 
